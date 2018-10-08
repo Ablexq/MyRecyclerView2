@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.louisgeek.louisstickylistheadersdemo.StickyListHeadersActivity;
 import com.xq.smartrefresh.SmartRefreshActivity;
 import com.xq.stickyheadersrecyclerview.StickyRecyclerViewActivity;
+import com.zhy.sample.demo_recyclerview.HomeActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.findViewById(R.id.btn1).setOnClickListener(this);
         this.findViewById(R.id.btn2).setOnClickListener(this);
         this.findViewById(R.id.btn3).setOnClickListener(this);
+        this.findViewById(R.id.btn4).setOnClickListener(this);
     }
 
     @Override
@@ -35,6 +37,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn3:
                 startActivity(new Intent(MainActivity.this, StickyListHeadersActivity.class));
+                break;
+
+            case R.id.btn4:
+                startActivity(new Intent(MainActivity.this, HomeActivity.class));
                 break;
         }
     }
