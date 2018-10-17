@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/smartrefresh/smartrefresh.iml" filepath="$PROJECT_DIR$/smartrefresh/smartrefresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/stickyheadersrecyclerview/stickyheadersrecyclerview.iml" filepath="$PROJECT_DIR$/stickyheadersrecyclerview/stickyheadersrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/stickylistheaders/stickylistheaders.iml" filepath="$PROJECT_DIR$/stickylistheaders/stickylistheaders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipe/swipe.iml" filepath="$PROJECT_DIR$/swipe/swipe.iml" />
       <module fileurl="file://$PROJECT_DIR$/zhyrvdemo/zhyrvdemo.iml" filepath="$PROJECT_DIR$/zhyrvdemo/zhyrvdemo.iml" />
     </modules>
   </component>

@@ -12,6 +12,7 @@ import com.xq.notify.NotifyMainActivity;
 import com.xq.onclick.OnclickMainActivity;
 import com.xq.smartrefresh.SmartRefreshActivity;
 import com.xq.stickyheadersrecyclerview.StickyRecyclerViewActivity;
+import com.xq.swipe.SwipeDragMainActivity;
 import com.zhy.sample.demo_recyclerview.HomeActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.findViewById(R.id.btn6).setOnClickListener(this);
         this.findViewById(R.id.btn7).setOnClickListener(this);
         this.findViewById(R.id.btn8).setOnClickListener(this);
+        this.findViewById(R.id.btn9).setOnClickListener(this);
     }
 
     @Override
@@ -64,6 +66,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn8:
                 startActivity(new Intent(MainActivity.this, DividerMainActivity.class));
+                break;
+
+            case R.id.btn9:
+                startActivity(new Intent(MainActivity.this, SwipeDragMainActivity.class));
                 break;
         }
     }

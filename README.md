@@ -1,5 +1,8 @@
 
 
+[csdn博客专栏：玩转RecyclerView的方方面面](https://blog.csdn.net/column/details/13868.html)
+
+
 [关于 RecyclerView 优化的一些建议](https://blog.csdn.net/yyh352091626/article/details/80064586)
 
 # 滚动不加载图片
@@ -73,7 +76,7 @@ public final void notifyItemRangeRemoved(int positionStart, int itemCount);
 
 
 
-# 分割线
+# 自定义分割线ItemDecoration与StickyHeader
 
 ```
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
@@ -104,6 +107,36 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration {
 [RecyclerView 之 ItemDecoration 讲解及高级特性实践](https://blog.csdn.net/briblue/article/details/70161917)
 
 [RecyclerView探索之通过ItemDecoration实现StickyHeader效果](https://blog.csdn.net/briblue/article/details/70211942)
+
+
+# 自定义LayoutManager
+
+[RecyclerView自定义LayoutManager,打造不规则布局](https://blog.csdn.net/qibin0506/article/details/52676670)
+
+[打造属于你的LayoutManager](https://blog.csdn.net/huachao1001/article/details/51594004#rd)
+
+[把RecyclerView撸成 马 蜂 窝(自定义LayoutManager)](https://chacojack.github.io/2016/09/14/%E6%8A%8ARecyclerView%E5%81%9A%E6%88%90-%E9%A9%AC-%E8%9C%82-%E7%AA%9D/)
+
+[自定义LayoutManager 实现弧形以及滑动放大效果RecyclerView](https://www.jianshu.com/p/7bb7556bbe10)
+
+[关于Android RecyclerView的那些开源LayoutManager](https://zhuanlan.zhihu.com/p/26003028)
+
+# 自定义RecyclerView动画
+
+[自定义RecyclerView动画——实现remove飞出效果](https://www.jianshu.com/p/d2cc0c4fbded)
+
+[github：recyclerview star数最多的动画库](https://github.com/wasabeef/recyclerview-animators)
+
+[自定义RecyclerView.ItemAnimator其实很简单（上）](https://www.jianshu.com/p/2a82b0341138)
+
+[自定义RecyclerView.ItemAnimator其实很简单（下）](https://www.jianshu.com/p/b9aef3597f2d)
+
+
+# 侧滑ItemTouchHelper
+
+[github : star数最多的demo](https://github.com/iPaulPro/Android-ItemTouchHelper-Demo)
+
+
 
 
 
