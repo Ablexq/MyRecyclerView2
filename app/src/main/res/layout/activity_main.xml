@@ -36,6 +36,24 @@
             android:layout_height="wrap_content"
             android:text="zhyrvdemo" />
 
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="onclick" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="notify" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="headerfooter" />
+
     </LinearLayout>
 
 </ScrollView>

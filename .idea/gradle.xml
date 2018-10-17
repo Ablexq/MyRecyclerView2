@@ -9,6 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/headerfooter" />
+            <option value="$PROJECT_DIR$/notify" />
+            <option value="$PROJECT_DIR$/onclick" />
             <option value="$PROJECT_DIR$/smartrefresh" />
             <option value="$PROJECT_DIR$/stickyheadersrecyclerview" />
             <option value="$PROJECT_DIR$/stickylistheaders" />
