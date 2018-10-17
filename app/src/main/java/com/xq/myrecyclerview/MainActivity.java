@@ -4,9 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import com.louisgeek.louisstickylistheadersdemo.StickyListHeadersActivity;
+import com.xq.divider.DividerMainActivity;
 import com.xq.headerfooter.HeaderFooterActivity;
 import com.xq.notify.NotifyMainActivity;
 import com.xq.onclick.OnclickMainActivity;
@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.findViewById(R.id.btn5).setOnClickListener(this);
         this.findViewById(R.id.btn6).setOnClickListener(this);
         this.findViewById(R.id.btn7).setOnClickListener(this);
+        this.findViewById(R.id.btn8).setOnClickListener(this);
     }
 
     @Override
@@ -59,6 +60,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn7:
                 startActivity(new Intent(MainActivity.this, HeaderFooterActivity.class));
+                break;
+
+            case R.id.btn8:
+                startActivity(new Intent(MainActivity.this, DividerMainActivity.class));
                 break;
         }
     }

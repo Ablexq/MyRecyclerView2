@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyRecyclerView2.iml" filepath="$PROJECT_DIR$/MyRecyclerView2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/divider/divider.iml" filepath="$PROJECT_DIR$/divider/divider.iml" />
       <module fileurl="file://$PROJECT_DIR$/headerfooter/headerfooter.iml" filepath="$PROJECT_DIR$/headerfooter/headerfooter.iml" />
       <module fileurl="file://$PROJECT_DIR$/notify/notify.iml" filepath="$PROJECT_DIR$/notify/notify.iml" />
       <module fileurl="file://$PROJECT_DIR$/onclick/onclick.iml" filepath="$PROJECT_DIR$/onclick/onclick.iml" />

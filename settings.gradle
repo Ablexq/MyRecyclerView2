@@ -1,1 +1,1 @@
-include ':app', ':smartrefresh', ':stickyheadersrecyclerview', ':stickylistheaders', ':zhyrvdemo', ':onclick', ':notify', ':headerfooter'
+include ':app', ':smartrefresh', ':stickyheadersrecyclerview', ':stickylistheaders', ':zhyrvdemo', ':onclick', ':notify', ':headerfooter', ':divider'

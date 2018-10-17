@@ -69,11 +69,41 @@ public final void notifyItemRangeRemoved(int positionStart, int itemCount);
 
 
 
+# onCreateViewHolder与onBindViewHolder多次调用避免创建对象
 
 
 
+# 分割线
+
+```
+public class DividerItemDecoration extends RecyclerView.ItemDecoration {
+
+    //撑开 ItemView 上、下、左、右四个方向的空间
+    @Override
+    public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
+        super.getItemOffsets(outRect, view, parent, state);
+    }
+
+    //在 ItemView 内容之下绘制图形
+    @Override
+    public void onDraw(Canvas c, RecyclerView parent, RecyclerView.State state) {
+        super.onDraw(c, parent, state);
+    }
+
+    //在 ItemView 内容之上绘制图形
+    @Override
+    public void onDrawOver(Canvas c, RecyclerView parent, RecyclerView.State state) {
+        super.onDrawOver(c, parent, state);
+    }
 
 
+}
+
+```
+
+[RecyclerView 之 ItemDecoration 讲解及高级特性实践](https://blog.csdn.net/briblue/article/details/70161917)
+
+[RecyclerView探索之通过ItemDecoration实现StickyHeader效果](https://blog.csdn.net/briblue/article/details/70211942)
 
 
 
