@@ -2,11 +2,14 @@
 
     package="com.xq.smartrefresh">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application android:allowBackup="true" android:label="@string/app_name"
         android:supportsRtl="true">
 
 
-        <activity android:name=".SmartRefreshActivity"/>
+        <activity android:name=".SmartRefreshActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
     </application>
 

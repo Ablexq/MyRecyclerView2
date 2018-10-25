@@ -49,7 +49,10 @@ public class SmartRefreshActivity extends AppCompatActivity {
         //设置Adapter
         recyclerView.setAdapter(recycleAdapter);
         //设置 Header 为 贝塞尔雷达 样式
-        smartRefreshLayout.setRefreshHeader(new BezierRadarHeader(this).setEnableHorizontalDrag(true));
+//        smartRefreshLayout.setRefreshHeader(new BezierRadarHeader(this).setEnableHorizontalDrag(true));
+
+        smartRefreshLayout.setRefreshHeader(new CustomRefreshHeader(this));
+
         //设置 Footer 为 球脉冲 样式
         smartRefreshLayout.setRefreshFooter(new BallPulseFooter(this).setSpinnerStyle(SpinnerStyle.Scale));
 
