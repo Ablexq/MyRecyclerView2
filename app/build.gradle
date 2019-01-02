@@ -43,4 +43,5 @@ dependencies {
     compile project(':headerfooter')
     compile project(':divider')
     compile project(':swipe')
+    compile project(':loadmore')
 }

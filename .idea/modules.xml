@@ -3,16 +3,28 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyRecyclerView2.iml" filepath="$PROJECT_DIR$/MyRecyclerView2.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\MyRecyclerView2.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\MyRecyclerView2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\app\app.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/divider/divider.iml" filepath="$PROJECT_DIR$/divider/divider.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\divider\divider.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\divider\divider.iml" />
       <module fileurl="file://$PROJECT_DIR$/headerfooter/headerfooter.iml" filepath="$PROJECT_DIR$/headerfooter/headerfooter.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\headerfooter\headerfooter.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\headerfooter\headerfooter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadmore/loadmore.iml" filepath="$PROJECT_DIR$/loadmore/loadmore.iml" />
       <module fileurl="file://$PROJECT_DIR$/notify/notify.iml" filepath="$PROJECT_DIR$/notify/notify.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\notify\notify.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\notify\notify.iml" />
       <module fileurl="file://$PROJECT_DIR$/onclick/onclick.iml" filepath="$PROJECT_DIR$/onclick/onclick.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\onclick\onclick.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\onclick\onclick.iml" />
       <module fileurl="file://$PROJECT_DIR$/smartrefresh/smartrefresh.iml" filepath="$PROJECT_DIR$/smartrefresh/smartrefresh.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\smartrefresh\smartrefresh.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\smartrefresh\smartrefresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/stickyheadersrecyclerview/stickyheadersrecyclerview.iml" filepath="$PROJECT_DIR$/stickyheadersrecyclerview/stickyheadersrecyclerview.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\stickyheadersrecyclerview\stickyheadersrecyclerview.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\stickyheadersrecyclerview\stickyheadersrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/stickylistheaders/stickylistheaders.iml" filepath="$PROJECT_DIR$/stickylistheaders/stickylistheaders.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\stickylistheaders\stickylistheaders.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\stickylistheaders\stickylistheaders.iml" />
       <module fileurl="file://$PROJECT_DIR$/swipe/swipe.iml" filepath="$PROJECT_DIR$/swipe/swipe.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\swipe\swipe.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\swipe\swipe.iml" />
       <module fileurl="file://$PROJECT_DIR$/zhyrvdemo/zhyrvdemo.iml" filepath="$PROJECT_DIR$/zhyrvdemo/zhyrvdemo.iml" />
+      <module fileurl="file://F:\Users\lenovo\workspace\MyRecyclerView2\zhyrvdemo\zhyrvdemo.iml" filepath="F:\Users\lenovo\workspace\MyRecyclerView2\zhyrvdemo\zhyrvdemo.iml" />
     </modules>
   </component>
 </project>

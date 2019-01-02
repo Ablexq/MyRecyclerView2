@@ -1,13 +1,15 @@
 package com.xq.myrecyclerview;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 
 import com.louisgeek.louisstickylistheadersdemo.StickyListHeadersActivity;
 import com.xq.divider.DividerMainActivity;
 import com.xq.headerfooter.HeaderFooterActivity;
+import com.xq.loadmore.LoadMoreActivity;
 import com.xq.notify.NotifyMainActivity;
 import com.xq.onclick.OnclickMainActivity;
 import com.xq.smartrefresh.SmartRefreshActivity;
@@ -17,10 +19,13 @@ import com.zhy.sample.demo_recyclerview.HomeActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    private Button btn10;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initView();
 
         this.findViewById(R.id.btn1).setOnClickListener(this);
         this.findViewById(R.id.btn2).setOnClickListener(this);
@@ -71,6 +76,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn9:
                 startActivity(new Intent(MainActivity.this, SwipeDragMainActivity.class));
                 break;
+            case R.id.btn10:
+                startActivity(new Intent(MainActivity.this, LoadMoreActivity.class));
+                break;
         }
+    }
+
+    private void initView() {
+        btn10 = (Button) findViewById(R.id.btn10);
+
+        btn10.setOnClickListener(this);
     }
 }
