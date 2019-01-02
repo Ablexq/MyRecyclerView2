@@ -196,3 +196,39 @@ recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
 
 [Android开发之一些好用的RecyclerView轮子](https://www.jianshu.com/p/a96e009e367c)
 
+
+自定义layoutmanager
+
+[DingMouRen/LayoutManagerGroup](https://github.com/DingMouRen/LayoutManagerGroup)
+
+ViewDragHelper 与 viewgroup 侧滑
+
+[Android ViewDragHelper完全解析 自定义ViewGroup神器](https://blog.csdn.net/lmj623565791/article/details/46858663)
+
+[ViewDragHelper实战 自己打造Drawerlayout](https://blog.csdn.net/lmj623565791/article/details/47396187)
+
+
+SnapHelper 与 RecyclerView 滚动 模仿viewpager
+
+
+ItemTouchHelper 与 RecyclerView 侧滑换位
+
+
+ItemDecoration
+LayoutManager
+RecyclerView.Adapter
+DiffUtil
+SimpleOnItemTouchListener
+SmoothScroller
+ItemAnimator
+
+
+# Dagger2
+
+对象管理，降低耦合
+
+# mvp
+
+内存泄漏：AutoDispose RxLifecycle
+
+# Arouter
