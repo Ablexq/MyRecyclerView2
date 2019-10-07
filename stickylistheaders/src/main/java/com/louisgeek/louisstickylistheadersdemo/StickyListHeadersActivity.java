@@ -53,14 +53,14 @@ public class StickyListHeadersActivity extends AppCompatActivity {
         myAdapter.setOnMyItemClickListener(new MyAdapter.OnMyItemClickListener() {
             @Override
             public void onMyItemClick(int position, Object object) {
-                Toast.makeText(StickyListHeadersActivity.this, "Click on item" + position, Toast.LENGTH_SHORT).show();
+                Toast.makeText(StickyListHeadersActivity.this, "Click on item11" + position, Toast.LENGTH_SHORT).show();
 
                 myAdapter.addItem();
             }
 
             @Override
             public void onMyItemLongClick(int position, Object object) {
-                Toast.makeText(StickyListHeadersActivity.this, "Click long  on item" + position, Toast.LENGTH_SHORT).show();
+                Toast.makeText(StickyListHeadersActivity.this, "Click long  on item11" + position, Toast.LENGTH_SHORT).show();
                 myAdapter.deleteItem(position);
             }
         });

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import com.zhy.sample.demo_recyclerview.StaggeredHomeAdapter.OnItemClickLitener;
 
-public class StaggeredGridLayoutActivity extends ActionBarActivity
+public class StaggeredGridLayoutActivity extends AppCompatActivity
 {
 
 	private RecyclerView mRecyclerView;

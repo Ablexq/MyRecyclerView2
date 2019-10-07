@@ -20,12 +20,12 @@ import com.zhy.sample.demo_recyclerview.HomeActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn10;
+    private Button mBtn11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initView();
 
         this.findViewById(R.id.btn1).setOnClickListener(this);
         this.findViewById(R.id.btn2).setOnClickListener(this);
@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.findViewById(R.id.btn7).setOnClickListener(this);
         this.findViewById(R.id.btn8).setOnClickListener(this);
         this.findViewById(R.id.btn9).setOnClickListener(this);
+        btn10 = (Button) findViewById(R.id.btn10);
+        btn10.setOnClickListener(this);
+        mBtn11 = (Button) findViewById(R.id.btn11);
+        mBtn11.setOnClickListener(this);
     }
 
     @Override
@@ -79,12 +83,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn10:
                 startActivity(new Intent(MainActivity.this, LoadMoreActivity.class));
                 break;
+
+            case R.id.btn11:
+                startActivity(new Intent(MainActivity.this, com.example.vidarecyclerviewstagger.MainActivity.class));
+                break;
         }
-    }
-
-    private void initView() {
-        btn10 = (Button) findViewById(R.id.btn10);
-
-        btn10.setOnClickListener(this);
     }
 }

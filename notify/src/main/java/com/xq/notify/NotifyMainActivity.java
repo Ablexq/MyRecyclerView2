@@ -20,7 +20,7 @@ import java.util.Collections;
 //https://blog.csdn.net/wangkai0681080/article/details/50082825
 public class NotifyMainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
-    //item 显示所需
+    //item11 显示所需
     private String[] title = {"JAVA","C","C++","C#","PYTHON","PHP"
             ,".NET","JAVASCRIPT","RUBY","PERL","VB","OC","SWIFT"
     };

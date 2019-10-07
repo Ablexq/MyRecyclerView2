@@ -2,14 +2,14 @@ package com.xq.swipe;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import com.xq.swipe.fragment.MainFragment;
 import com.xq.swipe.fragment.RecyclerGridFragment;
 import com.xq.swipe.fragment.RecyclerListFragment;
 
-public class SwipeDragMainActivity extends ActionBarActivity implements MainFragment.OnListItemClickListener {
+public class SwipeDragMainActivity extends AppCompatActivity implements MainFragment.OnListItemClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

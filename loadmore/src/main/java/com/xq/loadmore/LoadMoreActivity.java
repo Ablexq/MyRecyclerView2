@@ -142,7 +142,7 @@ public class LoadMoreActivity extends Activity {
 
     private void initData() {
         for (int i = 0; i < 20; i++) {
-            lists.add("item" + i);
+            lists.add("item11" + i);
         }
     }
 

@@ -70,10 +70,10 @@ public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
 
     @Override
     public void onSelectedChanged(RecyclerView.ViewHolder viewHolder, int actionState) {
-        // We only want the active item to change
+        // We only want the active item11 to change
         if (actionState != ItemTouchHelper.ACTION_STATE_IDLE) {
             if (viewHolder instanceof ItemTouchHelperViewHolder) {
-                // Let the view holder know that this item is being moved or dragged
+                // Let the view holder know that this item11 is being moved or dragged
                 ItemTouchHelperViewHolder itemViewHolder = (ItemTouchHelperViewHolder) viewHolder;
                 itemViewHolder.onItemSelected();
             }
